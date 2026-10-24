@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delta Executor for Roblox: Platforms, Versions &amp; Errors</title>
+  <meta name="description" content="An independent Delta Executor reference for Roblox: compare platform and release information, separate script errors, and use a clear troubleshooting report template.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://bestrbxscripts-art.github.io/delta-executor-guide/">
+  <link rel="alternate" hreflang="en" href="https://bestrbxscripts-art.github.io/delta-executor-guide/">
+  <link rel="alternate" hreflang="pt-BR" href="https://bestrbxscripts-art.github.io/delta-executor-guide/pt-br.html">
+  <link rel="alternate" hreflang="x-default" href="https://bestrbxscripts-art.github.io/delta-executor-guide/">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="./">Delta reference</a><nav aria-label="Language"><span aria-current="page">English</span><a href="pt-br.html" lang="pt-BR" hreflang="pt-BR">Português do Brasil</a></nav></header>
+  <div class="layout">
+    <aside><p class="label">On this page</p><nav aria-label="Contents"><a href="#meaning">What Delta Roblox means</a><a href="#platforms">Platforms</a><a href="#release">Release checklist</a><a href="#errors">Troubleshooting</a><a href="#faq">Common questions</a><a href="#about">About this reference</a></nav><a class="download" href="problem-report.txt" download>Download the report template ↓</a></aside>
+    <main id="main">
+      <p class="eyebrow">Independent documentation · EN / PT-BR</p>
+      <h1>Delta Executor for Roblox: platforms, versions and errors</h1>
+      <p class="lead">A practical reference for reading release information and describing problems clearly. Use the checklists before comparing a download page, an application version or a script error.</p>
+      <p class="updated">Documentation reviewed: 24 October 2026. This date describes this document, not an application release.</p>
+
+      <section id="meaning"><h2>What does “Delta Roblox” mean?</h2><p>People use searches such as <strong>Delta Roblox</strong> and <strong>Delta Executor</strong> when looking for a third-party Roblox script executor. These search terms do not identify an official Roblox edition, a particular release or a verified download source.</p><p>Keep three things separate: the application, an individual script and a script hub. The executor provides an environment for compatible code; a script describes particular actions; a hub groups scripts or menus. A function advertised for one script does not automatically belong to the application.</p></section>
+
+      <section id="platforms"><h2>Start with the platform</h2><p>Record the device model and operating-system version first. Read the information attached to the specific release instead of assuming that every platform listed on a website shares the same version or requirements.</p><div class="table-wrap"><table><caption>What to check for each platform</caption><thead><tr><th>Platform</th><th>Record</th><th>Keep separate</th></tr></thead><tbody><tr><td>Android</td><td>Device, OS version, package version and source</td><td>An APK name alone does not establish device compatibility.</td></tr><tr><td>iPhone / iPad</td><td>Device family, iOS or iPadOS requirement and release details</td><td>Android information does not establish iOS support.</td></tr><tr><td>Windows / PC</td><td>Whether the source describes a native application or Android emulation</td><td>An emulator setup is a different configuration from a native Windows build.</td></tr></tbody></table></div><p>This table is a way to organise evidence. It does not claim that a current Delta release exists or works on every listed platform.</p></section>
+
+      <section id="release"><h2>A release checklist you can reuse</h2><p>Use one record per platform and release. Mark missing details as “not stated” rather than filling the gaps with assumptions.</p><ol><li><strong>Identify the source.</strong> Save the public page URL and the publisher name stated there. A page calling itself official is a claim to verify.</li><li><strong>Copy the version carefully.</strong> Keep a version displayed inside the application separate from one in a filename, page title or download card.</li><li><strong>Record the requirements.</strong> Include the device family and OS requirement only when the source actually states them.</li><li><strong>Separate the dates.</strong> A release publication date, a page review date and your own check date describe different events.</li><li><strong>Save the evidence.</strong> Link to release notes or a specific compatibility statement. Do not infer compatibility from a generic “latest version” label.</li><li><strong>Keep contradictions visible.</strong> If a download card and the article disagree, record both claims and leave the question unresolved.</li></ol><p><a href="release-record.txt" download>Download the plain-text release record</a> to make a consistent comparison.</p></section>
+
+      <section id="errors"><h2>Delta Executor not working: describe the symptom first</h2><p>A website link failing to open, an application crashing and a script menu not appearing are different observations. Identifying the component prevents an unrelated fix from being presented as an answer.</p><div class="callout"><h3>Use this short report</h3><pre>Device and OS:
+Application version, if known:
+Component: website / application / script / access process
+Exact error text:
+Action immediately before the error:
+Expected result:
+Observed result:
+When it last worked, if known:
+Relevant public release notes:</pre></div><p>Remove passwords, session cookies, personal access keys and account information from anything you share. If an error appeared after a Roblox update, record the timing without treating it as proof of the cause. This documentation does not provide a universal fix or instructions to disable device protections.</p></section>
+
+      <section id="faq"><h2>Common questions</h2><h3>Does a “No Key” script mean the executor needs no key?</h3><p>No. The script and the application can have separate access requirements. Identify which component requests a key and check information for that component and release.</p><h3>Does a version number in the page title apply to Android and iOS?</h3><p>Not necessarily. Compare each platform’s release card and source information separately. A shared website title is not evidence that two builds use the same version number.</p><h3>Can a guide confirm that a download is safe?</h3><p>A guide, a source label or a successful download cannot guarantee file safety or account outcomes. Third-party executors can conflict with Roblox rules. This reference contains no application binaries and does not certify releases.</p></section>
+
+      <section id="about"><h2>About this reference</h2><p>This documentation is maintained for deltaexecutor.biz, an independent information website. It is not published by Roblox Corporation or the developers of Delta Executor. The checklists describe how to organise information; they do not report testing of the application.</p><p>For the wider English overview and related platform explanations, read the <a href="https://deltaexecutor.biz/">independent Delta Executor guide</a>. Choose the platform or help section that matches the question recorded above.</p><p>Corrections to this documentation should identify the exact paragraph and include a public source where available. Keep personal keys and device logs out of public reports.</p></section>
+    </main>
+  </div>
+  <footer><span>Delta reference · Independent documentation</span><a href="https://github.com/bestrbxscripts-art/delta-executor-guide">Source and document corrections</a></footer>
+</body>
+</html>

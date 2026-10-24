@@ -1,0 +1,35 @@
+DELTA REFERENCE — RELEASE RECORD / FICHA DE VERSÃO
+
+ENGLISH — use a separate record for each platform and release
+
+Platform:
+Device / OS requirement stated by the source:
+Release version stated by the source:
+Version displayed inside the application, if available:
+Source page URL:
+Publisher name as stated on that page:
+File format, if stated:
+Release publication date, if stated:
+Date the page was reviewed, if stated:
+Date you checked the information:
+Public compatibility evidence / release notes URL:
+Access requirements and the component they apply to:
+Missing information (mark as "not stated"):
+Conflicting claims and where they appear:
+
+PORTUGUÊS DO BRASIL — use uma ficha por plataforma e versão
+
+Plataforma:
+Requisito de dispositivo / sistema informado pela fonte:
+Número da versão informado pela fonte:
+Versão exibida no aplicativo, quando disponível:
+URL da página de origem:
+Responsável identificado naquela página:
+Formato do arquivo, quando informado:
+Data de publicação da versão, quando informada:
+Data de revisão da página, quando informada:
+Data em que você conferiu as informações:
+Evidência pública de compatibilidade / URL das notas da versão:
+Condições de acesso e componente ao qual se aplicam:
+Informações ausentes (preencher com "não informado"):
+Afirmações contraditórias e onde aparecem:

@@ -1,0 +1,37 @@
+DELTA REFERENCE — PROBLEM REPORT / RELATO DE PROBLEMA
+
+ENGLISH
+
+Device model:
+Operating system and version:
+Application version, if known:
+Component: website / application / script / access process
+Exact error message:
+Action immediately before the error:
+Expected result:
+Observed result:
+When it last worked, if known:
+Relevant public source / release notes:
+What remains unknown:
+
+Remove passwords, session cookies, personal access keys and account information
+before sharing this report. Describe observations without guessing the cause.
+Do not attach private device logs to a public issue.
+
+PORTUGUÊS DO BRASIL
+
+Modelo do dispositivo:
+Sistema operacional e versão:
+Versão do aplicativo, quando conhecida:
+Componente: site / aplicativo / script / processo de acesso
+Mensagem exata do erro:
+Ação imediatamente anterior:
+Resultado esperado:
+Resultado observado:
+Quando funcionou pela última vez, se souber:
+Fonte pública / notas da versão relacionadas:
+Informações que continuam desconhecidas:
+
+Remova senhas, cookies de sessão, chaves pessoais e dados da conta antes de
+compartilhar o relato. Descreva observações sem presumir a causa.
+Não anexe registros privados do dispositivo a uma issue pública.
